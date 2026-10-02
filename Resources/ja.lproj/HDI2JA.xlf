@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="HDI2" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="HDI2_Randomize" resname="HDI2_Randomize">
+				<source>Randomize</source>
+				<target>ランダム化</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Statistics" resname="HDI2_Statistics">
+				<source>Statistics</source>
+				<target>統計</target>
+			</trans-unit>
+			<trans-unit id="HDI2_OddNumbers" resname="HDI2_OddNumbers">
+				<source>Odd numbers:</source>
+				<target>奇数:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_EvenNumbers" resname="HDI2_EvenNumbers">
+				<source>Even numbers:</source>
+				<target>偶数:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Under10000" resname="HDI2_Under10000">
+				<source>Under 10,000:</source>
+				<target>10,000 未満:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Between" resname="HDI2_Between">
+				<source>Between 10,000 &amp; 20000:</source>
+				<target>10,000 〜 20000:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Over20000" resname="HDI2_Over20000">
+				<source>Over 20,000:</source>
+				<target>20,000 超:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_MultipleOf7" resname="HDI2_MultipleOf7">
+				<source>Multiple of 7:</source>
+				<target>7 の倍数:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TraceCode" resname="HDI2_TraceCode">
+				<source>Trace code</source>
+				<target>コードをトレース</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Words" resname="HDI2_Words">
+				<source>Words</source>
+				<target>単語</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderName" resname="HDI2_HeaderName">
+				<source>Name</source>
+				<target>名前</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderGender" resname="HDI2_HeaderGender">
+				<source>Gender</source>
+				<target>性別</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderCountry" resname="HDI2_HeaderCountry">
+				<source>Country</source>
+				<target>国</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderSalary" resname="HDI2_HeaderSalary">
+				<source>Salary</source>
+				<target>給与</target>
+			</trans-unit>
+			<trans-unit id="HDI2_RaiseUKSalaries" resname="HDI2_RaiseUKSalaries">
+				<source>Raise UK salaries</source>
+				<target>英国の給与を引き上げる</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ExistingProperties" resname="HDI2_ExistingProperties">
+				<source>Existing properties</source>
+				<target>既存のプロパティ</target>
+			</trans-unit>
+			<trans-unit id="HDI2_MergeRight" resname="HDI2_MergeRight">
+				<source>Merge-&gt;</source>
+				<target>マージ-&gt;</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Blog" resname="HDI2_Blog">
+				<source>BLOG</source>
+				<target>BLOG</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Reset" resname="HDI2_Reset">
+				<source>Reset</source>
+				<target>リセット</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Skip" resname="HDI2_Skip">
+				<source>Skip</source>
+				<target>スキップ</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Replace" resname="HDI2_Replace">
+				<source>Replace</source>
+				<target>置換</target>
+			</trans-unit>
+			<trans-unit id="HDI2_MergeLeft" resname="HDI2_MergeLeft">
+				<source>&lt;-Merge</source>
+				<target>&lt;-マージ</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

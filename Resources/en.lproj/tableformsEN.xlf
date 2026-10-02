@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="tableforms" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="INFO_PageNumber" resname="INFO_PageNumber">
+				<source>Page number:</source>
+				<target>Page number:</target>
+			</trans-unit>
+			<trans-unit id="INFO_TabTitle" resname="INFO_TabTitle">
+				<source>Tab Title:</source>
+				<target>Tab Title:</target>
+			</trans-unit>
+			<trans-unit id="INFO_ListPage" resname="INFO_ListPage">
+				<source>Page:</source>
+				<target>Page:</target>
+			</trans-unit>
+			<trans-unit id="INFO_ListTitle" resname="INFO_ListTitle">
+				<source>Title</source>
+				<target>Title</target>
+			</trans-unit>
+			<trans-unit id="Employees_Title" resname="Employees_Title">
+				<source>EMPLOYEES</source>
+				<target>EMPLOYEES</target>
+			</trans-unit>
+			<trans-unit id="Employees_ID" resname="Employees_ID">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="Employees_Name" resname="Employees_Name">
+				<source>Name : </source>
+				<target>Name : </target>
+			</trans-unit>
+			<trans-unit id="Employees_Gender" resname="Employees_Gender">
+				<source>Gender : </source>
+				<target>Gender : </target>
+			</trans-unit>
+			<trans-unit id="Employees_City" resname="Employees_City">
+				<source>City : </source>
+				<target>City : </target>
+			</trans-unit>
+			<trans-unit id="Employees_Salary" resname="Employees_Salary">
+				<source>Salary : </source>
+				<target>Salary : </target>
+			</trans-unit>
+			<trans-unit id="TipFirstRecord" resname="TipFirstRecord">
+				<source>First Record</source>
+				<target>First Record</target>
+			</trans-unit>
+			<trans-unit id="TipPreviousRecord" resname="TipPreviousRecord">
+				<source>Previous Record</source>
+				<target>Previous Record</target>
+			</trans-unit>
+			<trans-unit id="TipNextRecord" resname="TipNextRecord">
+				<source>Next Record</source>
+				<target>Next Record</target>
+			</trans-unit>
+			<trans-unit id="TipLastRecord" resname="TipLastRecord">
+				<source>Last Record</source>
+				<target>Last Record</target>
+			</trans-unit>
+			<trans-unit id="TipDeleteRecord" resname="TipDeleteRecord">
+				<source>Delete Record</source>
+				<target>Delete Record</target>
+			</trans-unit>
+			<trans-unit id="TipAccept" resname="TipAccept">
+				<source>Accept</source>
+				<target>Accept</target>
+			</trans-unit>
+			<trans-unit id="TipRecordNumber" resname="TipRecordNumber">
+				<source>Record Position within Selection</source>
+				<target>Record Position within Selection</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
