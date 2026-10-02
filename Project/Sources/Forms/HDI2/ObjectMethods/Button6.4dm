@@ -2,9 +2,9 @@ If (btnTrace)
 	TRACE:C157
 End if 
 
-For each (property; vContact2)
-	If (vContact1[property]=Null:C1517) | (btnReplace=1)
-		vContact1[property]:=vContact2[property]
+For each (_property; vContact2)
+	If (vContact1[_property]=Null:C1517) | (btnReplace=1)
+		vContact1[_property]:=vContact2[_property]
 	End if 
 End for each 
 
