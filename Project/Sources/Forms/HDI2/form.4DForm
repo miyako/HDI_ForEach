@@ -1,0 +1,840 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 800,
+	"windowMaxWidth": 32000,
+	"windowMinHeight": 600,
+	"windowMaxHeight": 32000,
+	"width": 960,
+	"height": 640,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 920,
+					"height": 600,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "_TabTitles",
+					"dataSourceTypeHint": "arrayText",
+					"action": "gotoPage",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line": {
+					"type": "line",
+					"top": 0,
+					"left": 480,
+					"height": 640,
+					"visibility": "hidden",
+					"sizingY": "grow",
+					"stroke": "#800080",
+					"strokeDashArray": "1 1"
+				}
+			}
+		},
+		{
+			"objects": {
+				"information": {
+					"type": "input",
+					"top": 80,
+					"left": 80,
+					"width": 800,
+					"height": 520,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "_Descriptions{1}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"information1": {
+					"type": "input",
+					"top": 80,
+					"left": 80,
+					"width": 800,
+					"height": 520,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "_Descriptions{2}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"information4": {
+					"type": "input",
+					"top": 80,
+					"left": 80,
+					"width": 800,
+					"height": 120,
+					"sizingX": "grow",
+					"dataSource": "_Descriptions{3}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 200,
+					"left": 80,
+					"width": 310,
+					"height": 340,
+					"sizingY": "grow",
+					"dataSource": "vNumCollection",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 580,
+					"left": 80,
+					"width": 140,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Randomize",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 580,
+					"left": 248,
+					"width": 140,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Statistics",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 200,
+					"left": 440,
+					"width": 250,
+					"height": 22,
+					"textAlign": "right",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"text": "Odd numbers:"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 264,
+					"left": 440,
+					"width": 250,
+					"height": 22,
+					"textAlign": "right",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"text": "Even numbers:"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 328,
+					"left": 440,
+					"width": 250,
+					"height": 22,
+					"textAlign": "right",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"text": "Under 10,000:"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 393,
+					"left": 440,
+					"width": 250,
+					"height": 22,
+					"textAlign": "right",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"text": "Between 10,000 & 20000:"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 458,
+					"left": 440,
+					"width": 250,
+					"height": 22,
+					"textAlign": "right",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"text": "Over 20,000:"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 523,
+					"left": 440,
+					"width": 250,
+					"height": 22,
+					"textAlign": "right",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"text": "Multiple of 7:"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 200,
+					"left": 708,
+					"width": 158,
+					"height": 22,
+					"dataSource": "vOdd",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"contextMenu": "none",
+					"numberFormat": "###,##0;-###,##0;0",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 264,
+					"left": 708,
+					"width": 158,
+					"height": 22,
+					"dataSource": "vEven",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"contextMenu": "none",
+					"numberFormat": "###,##0;-###,##0;0",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 328,
+					"left": 708,
+					"width": 158,
+					"height": 22,
+					"dataSource": "vUnder",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"contextMenu": "none",
+					"numberFormat": "###,##0;-###,##0;0",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 392,
+					"left": 708,
+					"width": 158,
+					"height": 22,
+					"dataSource": "vBetween",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"contextMenu": "none",
+					"numberFormat": "###,##0;-###,##0;0",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 456,
+					"left": 708,
+					"width": 158,
+					"height": 22,
+					"dataSource": "vOver",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"contextMenu": "none",
+					"numberFormat": "###,##0;-###,##0;0",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 520,
+					"left": 708,
+					"width": 158,
+					"height": 22,
+					"dataSource": "vMultiple",
+					"dataSourceTypeHint": "number",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"contextMenu": "none",
+					"numberFormat": "###,##0;-###,##0;0",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Check Box2": {
+					"type": "checkbox",
+					"top": 582,
+					"left": 480,
+					"width": 260,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "btnTrace",
+					"text": "Trace code",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 667,
+					"left": 183,
+					"width": 140,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Words",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"information3": {
+					"type": "input",
+					"top": 80,
+					"left": 80,
+					"width": 800,
+					"height": 520,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "_Descriptions{4}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"information6": {
+					"type": "input",
+					"top": 80,
+					"left": 40,
+					"width": 500,
+					"height": 520,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "_Descriptions{5}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button10": {
+					"type": "button",
+					"top": 580,
+					"left": 750,
+					"width": 170,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Raise UK salaries",
+					"focusable": false,
+					"method": "ObjectMethods/Button10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"LB": {
+					"type": "listbox",
+					"top": 80,
+					"left": 560,
+					"width": 358,
+					"height": 456,
+					"sizingX": "move",
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"movableRows": false,
+					"dataSource": "employees",
+					"scrollbarHorizontal": "automatic",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "This:C1470.name",
+							"width": 80,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Name",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": " 1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column2",
+							"dataSource": "This:C1470.gender",
+							"dataSourceTypeHint": "boolean",
+							"width": 70,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"controlType": "popup",
+							"booleanFormat": "F;M",
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Gender",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": " 2",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column3",
+							"dataSource": "This:C1470.country",
+							"width": 80,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Country",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": " 3",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column4",
+							"dataSource": "This:C1470.salary",
+							"dataSourceTypeHint": "number",
+							"width": 113,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"numberFormat": "###,##0.00",
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "right",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Salary",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": " 4",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"top": 582,
+					"left": 560,
+					"width": 140,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "btnTrace",
+					"text": "Trace code",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"information2": {
+					"type": "input",
+					"top": 80,
+					"left": 80,
+					"width": 800,
+					"height": 520,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "_Descriptions{6}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Group Box": {
+					"type": "groupBox",
+					"top": 320,
+					"left": 390,
+					"width": 180,
+					"height": 80,
+					"text": "Existing properties"
+				},
+				"information7": {
+					"type": "input",
+					"top": 80,
+					"left": 80,
+					"width": 800,
+					"height": 90,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "_Descriptions{7}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"vContact1": {
+					"type": "input",
+					"top": 240,
+					"left": 60,
+					"width": 310,
+					"height": 310,
+					"sizingY": "grow",
+					"dataSource": "vContact1",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 240,
+					"left": 390,
+					"width": 180,
+					"height": 20,
+					"text": "Merge->",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box4": {
+					"type": "checkbox",
+					"top": 570,
+					"left": 390,
+					"width": 180,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "btnTrace",
+					"text": "Trace code",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"vContact2": {
+					"type": "input",
+					"top": 240,
+					"left": 590,
+					"width": 310,
+					"height": 310,
+					"sizingY": "grow",
+					"dataSource": "vContact2",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 654,
+					"left": 80,
+					"width": 140,
+					"height": 20,
+					"sizingY": "move",
+					"text": "BLOG",
+					"focusable": false,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 530,
+					"left": 390,
+					"width": 180,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Reset",
+					"focusable": false,
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box3": {
+					"type": "radio",
+					"top": 342,
+					"left": 400,
+					"width": 160,
+					"height": 20,
+					"dataSource": "btnSkip",
+					"text": "Skip",
+					"focusable": false,
+					"radioGroup": "Group3",
+					"events": [
+						"onClick"
+					]
+				},
+				"Check Box5": {
+					"type": "radio",
+					"top": 364,
+					"left": 400,
+					"width": 160,
+					"height": 20,
+					"dataSource": "btnReplace",
+					"text": "Replace",
+					"focusable": false,
+					"radioGroup": "Group3",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 280,
+					"left": 390,
+					"width": 180,
+					"height": 20,
+					"text": "<-Merge",
+					"focusable": false,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group3": [
+				"Check Box3",
+				"Check Box5"
+			]
+		},
+		"defaultView": "View 1",
+		"activeView": "View 3",
+		"views": {
+			"View 1": {},
+			"Guides": {
+				"objects": [
+					"Line"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"Variable",
+					"Button",
+					"Button1",
+					"Text",
+					"Text1",
+					"Text2",
+					"Text3",
+					"Text4",
+					"Text5",
+					"Variable1",
+					"Variable2",
+					"Variable3",
+					"Variable4",
+					"Variable5",
+					"Variable6",
+					"Check Box2",
+					"Button2",
+					"LB",
+					"Check Box1",
+					"Group Box",
+					"vContact1",
+					"Button3",
+					"Check Box4",
+					"vContact2",
+					"Button4",
+					"Button5",
+					"Group3",
+					"Button6"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}
