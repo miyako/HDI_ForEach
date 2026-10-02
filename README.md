@@ -12,8 +12,8 @@ The `For each` loop (introduced in 4D v16 R6) iterates over a **collection**, an
 
 | Tab | Iterates over | Technique |
 |-----|---------------|-----------|
-| Collection | 100 random numbers | Counting odd/even, ranges, and multiples of 7 in one pass |
-| Collection of text | A list of words | Filtering by length |
+| Numbers | 100 random numbers | Counting odd/even, ranges, and multiples of 7 in one pass |
+| Words | A collection of text values | Filtering by length |
 | Entity selection | `ds.Employees` query | Updating and saving each entity (e.g. salary raise) |
 | Object properties | Two contact objects | Merging properties with *Skip* or *Replace* behaviour |
 
@@ -66,10 +66,7 @@ To reuse the splash for another HDI example, edit the options in `00_Start.4dm` 
 
 - Blog post: [Loops, loops and more loops](https://blog.4d.com/loops-loops-and-more-loops/)
 - Original download: [HDI_ForEach.zip](https://download.4d.com/Demos/4D_v17/HDI_ForEach.zip)
-- [`For each...End for each`](https://developer.4d.com/docs/Concepts/flow-control#for-eachend-for-each)
-- [ORDA entity selections](https://developer.4d.com/docs/ORDA/entities)
 - [CSS in 4D forms](https://developer.4d.com/docs/FormEditor/stylesheets)
-- [XLIFF and 4D localisation](https://developer.4d.com/docs/Project/localization)
 
 ## License
 
