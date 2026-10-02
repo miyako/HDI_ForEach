@@ -1,4 +1,4 @@
-C_LONGINT:C283($item)
+var $item : Integer
 
 vOdd:=0
 vEven:=0

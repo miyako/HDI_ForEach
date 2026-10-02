@@ -1,4 +1,4 @@
-C_LONGINT:C283($i)
+var $i : Integer
 
 vNumCollection:=New collection:C1472
 For ($i; 1; 100)

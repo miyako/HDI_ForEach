@@ -1,5 +1,5 @@
-C_TEXT:C284($property)
-C_OBJECT:C1216($contact)
+var $property : Text
+var $contact : Object
 
 $contact:=New object:C1471("name"; "Martin"; "firstname"; "daniel"; "age"; 10; "ZIP"; 75018; "City"; "Paris")
 For each ($property; $contact)

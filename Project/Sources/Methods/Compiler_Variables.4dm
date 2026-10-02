@@ -1,33 +1,33 @@
 //%attributes = {"invisible":true}
-C_BOOLEAN:C305(btnTrace)
+var btnTrace : Boolean
 
-C_COLLECTION:C1488(docElements)
-C_COLLECTION:C1488(vNumCollection)
+var docElements : Collection
+var vNumCollection : Collection
 
-C_LONGINT:C283(vBetween)
-C_LONGINT:C283(vEven)
-C_LONGINT:C283(vMultiple)
-C_LONGINT:C283(vOdd)
-C_LONGINT:C283(vOver)
-C_LONGINT:C283(vUnder)
+var vBetween : Integer
+var vEven : Integer
+var vMultiple : Integer
+var vOdd : Integer
+var vOver : Integer
+var vUnder : Integer
 
-C_OBJECT:C1216(tableRange)
-C_OBJECT:C1216(WParea)
-C_OBJECT:C1216(WParea2)
-C_OBJECT:C1216(vOriginalObject)
-C_OBJECT:C1216(employees)
-C_OBJECT:C1216(emp)
-C_OBJECT:C1216(vCopyObject)
+var tableRange : Object
+var WParea : Object
+var WParea2 : Object
+var vOriginalObject : Object
+var employees : Object
+var emp : Object
+var vCopyObject : Object
 
-C_TEXT:C284(vDescription1)
-C_TEXT:C284(vDescription2)
-C_TEXT:C284(property)
+var vDescription1 : Text
+var vDescription2 : Text
+var property : Text
 
-C_REAL:C285(LB)
-C_REAL:C285(btnReplace)
-C_REAL:C285(btnSkip)
-C_COLLECTION:C1488(collection)
-C_TEXT:C284(item)
-C_OBJECT:C1216(vContact1)
-C_OBJECT:C1216(vContact2)
-C_OBJECT:C1216(UK_emps)
+var LB : Real
+var btnReplace : Real
+var btnSkip : Real
+var collection : Collection
+var item : Text
+var vContact1 : Object
+var vContact2 : Object
+var UK_emps : Object

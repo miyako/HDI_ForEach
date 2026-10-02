@@ -1,6 +1,3 @@
-C_OBJECT:C1216(UK_emps)
-C_OBJECT:C1216(emp)
-
 If (btnTrace)
 	TRACE:C157
 End if 

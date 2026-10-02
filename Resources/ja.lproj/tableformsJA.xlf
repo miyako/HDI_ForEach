@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="tableforms" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="INFO_PageNumber" resname="INFO_PageNumber">
+				<source>Page number:</source>
+				<target>ページ番号:</target>
+			</trans-unit>
+			<trans-unit id="INFO_TabTitle" resname="INFO_TabTitle">
+				<source>Tab Title:</source>
+				<target>タブのタイトル:</target>
+			</trans-unit>
+			<trans-unit id="INFO_ListPage" resname="INFO_ListPage">
+				<source>Page:</source>
+				<target>ページ:</target>
+			</trans-unit>
+			<trans-unit id="INFO_ListTitle" resname="INFO_ListTitle">
+				<source>Title</source>
+				<target>タイトル</target>
+			</trans-unit>
+			<trans-unit id="Employees_Title" resname="Employees_Title">
+				<source>EMPLOYEES</source>
+				<target>従業員</target>
+			</trans-unit>
+			<trans-unit id="Employees_ID" resname="Employees_ID">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="Employees_Name" resname="Employees_Name">
+				<source>Name : </source>
+				<target>名前 : </target>
+			</trans-unit>
+			<trans-unit id="Employees_Gender" resname="Employees_Gender">
+				<source>Gender : </source>
+				<target>性別 : </target>
+			</trans-unit>
+			<trans-unit id="Employees_City" resname="Employees_City">
+				<source>City : </source>
+				<target>市区町村 : </target>
+			</trans-unit>
+			<trans-unit id="Employees_Salary" resname="Employees_Salary">
+				<source>Salary : </source>
+				<target>給与 : </target>
+			</trans-unit>
+			<trans-unit id="TipFirstRecord" resname="TipFirstRecord">
+				<source>First Record</source>
+				<target>最初のレコード</target>
+			</trans-unit>
+			<trans-unit id="TipPreviousRecord" resname="TipPreviousRecord">
+				<source>Previous Record</source>
+				<target>前のレコード</target>
+			</trans-unit>
+			<trans-unit id="TipNextRecord" resname="TipNextRecord">
+				<source>Next Record</source>
+				<target>次のレコード</target>
+			</trans-unit>
+			<trans-unit id="TipLastRecord" resname="TipLastRecord">
+				<source>Last Record</source>
+				<target>最後のレコード</target>
+			</trans-unit>
+			<trans-unit id="TipDeleteRecord" resname="TipDeleteRecord">
+				<source>Delete Record</source>
+				<target>レコードを削除</target>
+			</trans-unit>
+			<trans-unit id="TipAccept" resname="TipAccept">
+				<source>Accept</source>
+				<target>受け入れる</target>
+			</trans-unit>
+			<trans-unit id="TipRecordNumber" resname="TipRecordNumber">
+				<source>Record Position within Selection</source>
+				<target>セレクション内のレコード位置</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -142,28 +142,28 @@
 					"top": 580,
 					"left": 80,
 					"width": 140,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Randomize",
+					"text": ":xliff:HDI2_Randomize",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button1": {
 					"type": "button",
 					"top": 580,
 					"left": 248,
 					"width": 140,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Statistics",
+					"text": ":xliff:HDI2_Statistics",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text": {
 					"type": "text",
@@ -174,7 +174,8 @@
 					"textAlign": "right",
 					"fontFamily": "System Font",
 					"fontSize": 18,
-					"text": "Odd numbers:"
+					"text": ":xliff:HDI2_OddNumbers",
+					"stroke": "automatic"
 				},
 				"Text1": {
 					"type": "text",
@@ -185,7 +186,8 @@
 					"textAlign": "right",
 					"fontFamily": "System Font",
 					"fontSize": 18,
-					"text": "Even numbers:"
+					"text": ":xliff:HDI2_EvenNumbers",
+					"stroke": "automatic"
 				},
 				"Text2": {
 					"type": "text",
@@ -196,7 +198,8 @@
 					"textAlign": "right",
 					"fontFamily": "System Font",
 					"fontSize": 18,
-					"text": "Under 10,000:"
+					"text": ":xliff:HDI2_Under10000",
+					"stroke": "automatic"
 				},
 				"Text3": {
 					"type": "text",
@@ -207,7 +210,8 @@
 					"textAlign": "right",
 					"fontFamily": "System Font",
 					"fontSize": 18,
-					"text": "Between 10,000 & 20000:"
+					"text": ":xliff:HDI2_Between",
+					"stroke": "automatic"
 				},
 				"Text4": {
 					"type": "text",
@@ -218,7 +222,8 @@
 					"textAlign": "right",
 					"fontFamily": "System Font",
 					"fontSize": 18,
-					"text": "Over 20,000:"
+					"text": ":xliff:HDI2_Over20000",
+					"stroke": "automatic"
 				},
 				"Text5": {
 					"type": "text",
@@ -229,7 +234,8 @@
 					"textAlign": "right",
 					"fontFamily": "System Font",
 					"fontSize": 18,
-					"text": "Multiple of 7:"
+					"text": ":xliff:HDI2_MultipleOf7",
+					"stroke": "automatic"
 				},
 				"Variable1": {
 					"type": "input",
@@ -347,7 +353,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "btnTrace",
-					"text": "Trace code",
+					"text": ":xliff:HDI2_TraceCode",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -358,14 +364,14 @@
 					"top": 667,
 					"left": 183,
 					"width": 140,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Words",
+					"text": ":xliff:HDI2_Words",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		},
@@ -422,15 +428,15 @@
 					"top": 580,
 					"left": 750,
 					"width": 170,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Raise UK salaries",
+					"text": ":xliff:HDI2_RaiseUKSalaries",
 					"focusable": false,
 					"method": "ObjectMethods/Button10.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"LB": {
 					"type": "listbox",
@@ -457,9 +463,6 @@
 							"width": 80,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "center",
 							"verticalAlign": "automatic",
 							"events": [
@@ -468,7 +471,7 @@
 							],
 							"header": {
 								"name": "Header1",
-								"text": "Name",
+								"text": ":xliff:HDI2_HeaderName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -478,8 +481,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column2",
@@ -490,9 +495,6 @@
 							"maxWidth": 32000,
 							"controlType": "popup",
 							"booleanFormat": "F;M",
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "center",
 							"verticalAlign": "automatic",
 							"events": [
@@ -501,7 +503,7 @@
 							],
 							"header": {
 								"name": "Header2",
-								"text": "Gender",
+								"text": ":xliff:HDI2_HeaderGender",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -511,8 +513,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column3",
@@ -520,9 +524,6 @@
 							"width": 80,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "center",
 							"verticalAlign": "automatic",
 							"events": [
@@ -531,7 +532,7 @@
 							],
 							"header": {
 								"name": "Header3",
-								"text": "Country",
+								"text": ":xliff:HDI2_HeaderCountry",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -541,8 +542,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column4",
@@ -552,9 +555,6 @@
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"numberFormat": "###,##0.00",
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "right",
 							"verticalAlign": "automatic",
 							"events": [
@@ -563,7 +563,7 @@
 							],
 							"header": {
 								"name": "Header4",
-								"text": "Salary",
+								"text": ":xliff:HDI2_HeaderSalary",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -573,10 +573,15 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate"
 				},
 				"Check Box1": {
 					"type": "checkbox",
@@ -586,7 +591,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "btnTrace",
-					"text": "Trace code",
+					"text": ":xliff:HDI2_TraceCode",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -627,7 +632,7 @@
 					"left": 390,
 					"width": 180,
 					"height": 80,
-					"text": "Existing properties"
+					"text": ":xliff:HDI2_ExistingProperties"
 				},
 				"information7": {
 					"type": "input",
@@ -671,13 +676,13 @@
 					"top": 240,
 					"left": 390,
 					"width": 180,
-					"height": 20,
-					"text": "Merge->",
+					"text": ":xliff:HDI2_MergeRight",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Check Box4": {
 					"type": "checkbox",
@@ -687,7 +692,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "btnTrace",
-					"text": "Trace code",
+					"text": ":xliff:HDI2_TraceCode",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -714,28 +719,28 @@
 					"top": 654,
 					"left": 80,
 					"width": 140,
-					"height": 20,
 					"sizingY": "move",
-					"text": "BLOG",
+					"text": ":xliff:HDI2_Blog",
 					"focusable": false,
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button5": {
 					"type": "button",
 					"top": 530,
 					"left": 390,
 					"width": 180,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Reset",
+					"text": ":xliff:HDI2_Reset",
 					"focusable": false,
 					"method": "ObjectMethods/Button5.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Check Box3": {
 					"type": "radio",
@@ -744,7 +749,7 @@
 					"width": 160,
 					"height": 20,
 					"dataSource": "btnSkip",
-					"text": "Skip",
+					"text": ":xliff:HDI2_Skip",
 					"focusable": false,
 					"radioGroup": "Group3",
 					"events": [
@@ -758,7 +763,7 @@
 					"width": 160,
 					"height": 20,
 					"dataSource": "btnReplace",
-					"text": "Replace",
+					"text": ":xliff:HDI2_Replace",
 					"focusable": false,
 					"radioGroup": "Group3",
 					"events": [
@@ -770,13 +775,13 @@
 					"top": 280,
 					"left": 390,
 					"width": 180,
-					"height": 20,
-					"text": "<-Merge",
+					"text": ":xliff:HDI2_MergeLeft",
 					"focusable": false,
 					"method": "ObjectMethods/Button6.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		}

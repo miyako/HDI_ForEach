@@ -1,4 +1,4 @@
-C_LONGINT:C283($i)
+var $i : Integer
 
 Case of 
 		

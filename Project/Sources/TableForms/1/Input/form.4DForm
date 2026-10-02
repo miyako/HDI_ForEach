@@ -215,7 +215,7 @@
 					"sizingY": "grow",
 					"dataSource": "[INFO:1]Description:2",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"styledText": true,
 					"scrollbarVertical": "visible",
@@ -240,7 +240,8 @@
 					"width": 150,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Page number:"
+					"text": ":xliff:INFO_PageNumber",
+					"stroke": "automatic"
 				},
 				"Text1": {
 					"type": "text",
@@ -249,7 +250,8 @@
 					"width": 150,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Tab Title:"
+					"text": ":xliff:INFO_TabTitle",
+					"stroke": "automatic"
 				}
 			}
 		}
